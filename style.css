@@ -1,14 +1,14 @@
-:root {
-
-}
-
 body {
   margin: 0px;
   padding: 0px;
   width: 100%;
+  background-color: #f8f8ff;
 }
 
 /* Fonts */
+b {
+  font-weight: 600;
+}
 
 p {
   color: white;
@@ -46,7 +46,6 @@ span {
 }
 
 /* End of Fonts */
-
 .button-main-section {
   background-color: #581845;
   border: none;
@@ -75,7 +74,14 @@ span {
 .button-main-section:hover {
   transition: ease-in-out 550ms;
   background-color: #C70039;
-  text-decoration: underline;
+  color: black;
+  border: 0.5px solid #00FFFF;
+  border-radius: 120px;
+}
+
+li a:hover {
+  color: #fff;
+  background-color: black;
 }
 
 .rainbow-text:hover {
@@ -96,7 +102,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #900C3F;
 }
 
 li {
@@ -109,10 +115,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
 }
 
 /* End of Footer */
