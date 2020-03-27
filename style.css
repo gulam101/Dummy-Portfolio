@@ -46,6 +46,8 @@ span {
 }
 
 /* End of Fonts */
+
+/* Buttons */
 .button-main-section {
   background-color: #581845;
   border: none;
@@ -57,6 +59,8 @@ span {
   font-size: 16px;
   cursor: pointer;
 }
+
+/* End of Buttons */
 
 
 .container-section {
@@ -95,8 +99,49 @@ li a:hover {
 }
 /* End of Animations */
 
-/* Footer */
+/* Portfilio Images */
 
+.portfolio {
+margin: 3em 0 0;
+}
+
+.portfilio-title {
+  color: black;
+}
+
+.port-item img {
+  display: block;
+  text-align: center;
+}
+
+.port-item {
+  position: sticky;
+  margin: 0;
+
+}
+
+.port-desc {
+  position: absolute;
+  bottom: 100px;
+  left: 150px;
+  z-index: 100;
+  color: white;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 1em;
+}
+
+.port-desc p {
+  margin: 1em;
+}
+
+.img-container {
+  width: 100%;
+  height: 50%;
+}
+
+/* End of Portfilio */
+
+/* Footer */
 ul {
   list-style-type: none;
   margin: 0;
@@ -116,5 +161,4 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 /* End of Footer */
